@@ -19,6 +19,7 @@
       <h2>Tasks</h2>
       <div class = 'task-list' data-bind='foreach: tasks'>
         <article class="task"> <a href="javascript:void(0)"class="checkbox" data-bind="click: completeTask"></a><span class="task-name" data-bind="text: task"></span> <span class="task-date" data-bind="text: date"></span> <a href="javascript:void(0)" class="task-remove" data-bind="click: $root.removeTask">X</a>
+          
       </article>
       </div>
     </section>
